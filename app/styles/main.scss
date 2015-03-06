@@ -5,6 +5,16 @@ body {
     margin-bottom: 1em;
 }
 
+.maquette {
+    position: absolute;
+    font-size: 7em;
+    top: 40px;
+    left: 20px;
+    transform: rotate(0.075turn);
+    color: yellow;
+    opacity: 0.75;
+}
+
 .jumbotron {
     background-image: url(http://upload.wikimedia.org/wikipedia/commons/0/0c/Ville_de_Qu%C3%A9bec_vu_de_L%C3%A9vis.jpg);
     background-repeat: no-repeat;
