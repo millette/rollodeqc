@@ -1,13 +1,9 @@
-
-
-
 @import "darkly.scss";
 
 body {
     margin-top: 1em;
     margin-bottom: 1em;
 }
-
 
 .jumbotron {
     background-image: url(http://upload.wikimedia.org/wikipedia/commons/0/0c/Ville_de_Qu%C3%A9bec_vu_de_L%C3%A9vis.jpg);
@@ -22,26 +18,28 @@ body {
     background-position: 80% 35%;
 }
 
-
 .par-ville .jumbotron {
     background-position: 60% 35%;
 }
-
 
 .par-indice .jumbotron {
     background-position: 40% 35%;
 }
 
-
 .par-langage .jumbotron {
     background-position: 60% 45%;
 }
-
 
 .inscription .jumbotron {
     background-position: 80% 45%;
 }
 
-.jumbotron>h2,.jumbotron>h3{
-    background: #800000;
+.jumbotron>h2,.jumbotron>h3 {
+    background: #7d2f3c;
+    opacity: 0.65;
+}
+
+.fiche {
+    background: #7d2f3c;
+    height: 11em;
 }
